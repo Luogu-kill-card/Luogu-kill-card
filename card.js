@@ -10,6 +10,6 @@ class Card {
         this.num = num;
     }
     show(Web) {
-        Web.innerHTML = "<img src=\"svg/" + this.type.toString() + "/" + this.num.toString() + ".svg\", width=\"395\", height=\"500\">";
+        Web.innerHTML = "<img src=\"svg/" + this.type.toString() + "/" + this.num.toString() + ".svg\", width=\"395\", height=\"500\", class=\"card\">";
     }
 }
